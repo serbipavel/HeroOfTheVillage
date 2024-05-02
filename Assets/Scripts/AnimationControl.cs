@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimationControl : MonoBehaviour
 {
-    Animator anim => GetComponent<Animator>();
+    Animator anim => transform.GetChild(0).GetComponent<Animator>();
     // Start is called before the first frame update
     void Start()
     {
