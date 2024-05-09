@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] float jumpForce = 5f;
     [SerializeField] int numOfJumps = 2;
-
     [SerializeField] GameObject maincamera;
     //Animator anim;
 
